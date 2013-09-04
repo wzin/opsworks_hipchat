@@ -19,7 +19,7 @@ that will resemble your hipchat api key, room id and opsworks instance
 Example:
 
 ```json
- "deploy": {
+{ "deploy": {
         "my_fancy_app": {
             "hipchat_token" : "69d2627efe8f564c1cc0b6341e3291",
             "hipchat_room_id": "206231",
@@ -40,6 +40,7 @@ Example:
                 "config/sunspot.yml": "config/sunspot.yml"
             }
         }
+}
 ```
 
 ##Usage
