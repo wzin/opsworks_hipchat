@@ -3,7 +3,7 @@
 ##Description
 'opsworks_hipchat' cookbook will create hipchat notifications in given
 rooms like this:
-![alttext](https://github.com/wzin/opsworks_hipchat/raw/master/src/images/notification_example.png "")
+![alttext](https://github.com/wzin/opsworks_hipchat/blob/master/images/notification_example.png?raw=true "")
 
 ##Requirements
 - Amazon Opsworks
@@ -24,4 +24,4 @@ How to receive notifications on each deployment:
 Put "opsworks_hipchat::deploy" recipe in your rails/nodejs/php/static opsworks layer under "Setup" or "Configure" section
 
 Finally you will have something like this:
-![alttext](https://github.com/wzin/opsworks_hipchat/raw/master/src/images/configuration_example.png "")
+![alttext](https://github.com/wzin/opsworks_hipchat/blob/master/images/configuration_example.png?raw=true "")
