@@ -7,8 +7,9 @@ notifications to your hipchat rooms. Below is an example:
 ![alttext](https://github.com/wzin/opsworks_hipchat/blob/master/images/notification_example.png?raw=true "")
 
 ##Requirements
-- Amazon Opsworks :)
+- Amazon Opsworks
 - Custom chef cookbooks enabled 
+- Deployments should be performed by IAM users. You root account will throw an error with this cookbook (but it's easy to change though :) )
 
 ##Installation 
 * put "opsworks_hipchat::install" recipe in your rails/nodejs/php/static opsworks layer under "Setup" or "Configure" section
