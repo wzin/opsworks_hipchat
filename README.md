@@ -47,7 +47,7 @@ Example:
 ##Usage
 How to receive notifications on each deployment:
 
-Put "opsworks_hipchat::deploy" recipe in your rails/nodejs/php/static opsworks layer under "Setup" or "Configure" section
+Put "opsworks_hipchat::deploy" recipe in your rails/nodejs/php/static opsworks layer under "Deploy" section
 
 Finally you will have something like this:
 
